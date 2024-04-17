@@ -18,6 +18,10 @@ const ProveedorSchema = {
     allowNull: false,
     type: DataTypes.STRING
   },
+  direccion: {
+    allowNull: false,
+    type: DataTypes.STRING
+  },
   createdAt: {
     allowNull: false,
     type: DataTypes.DATE,
